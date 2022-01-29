@@ -34,7 +34,7 @@ jobs:
         npm run build
         cd CheckSSL
         chmod +x checker.sh
-        ./checker.sh blog.iamsjy.com iamsjy.eu.org sjy.js.org iamsjy.netlify.com sjy.pages.dev sjy.iamsjy.com drive.iamsjy.com storage.iamsjy.com fc.iamsjy.com iamsjy.tk picx.iamsjy.vercel.app
+        ./checker.sh blog.iamsjy.com iamsjy.eu.org sjy.js.org iamsjy.netlify.com sjy.pages.dev sjy.iamsjy.com drive.iamsjy.com storage.iamsjy.com fc.iamsjy.com iamsjy.tk picx.iamsjy.vercel.app 
         cp -rf ./output/ct.json ../public/ct.json
         echo "blog.iamsjy.com" > ../public/CNAME
         
